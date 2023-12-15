@@ -1,0 +1,104 @@
+.Header { 
+    align-items: center;
+    display: flex;
+    font-size:20px; 
+    justify-content:flex-end;
+    padding: 25px 25px;
+}
+.HeaderNav{
+
+}
+
+.Header a {
+    color:#1d2410;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.Header a:hover{
+    text-decoration:line-through;
+    cursor:pointer;
+}
+
+.postcreation{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 20px double #1d2410;
+    border-radius: 8px; 
+    gap: 20px;
+  
+    padding: 20px; /* Adjust the padding inside the box */
+}
+
+.loginWrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+
+
+.input{
+    background-color: tan; 
+    border: 6px double #D27D2D; 
+    border-radius: 8px;
+    height: 40px; 
+    padding: 10px; /* Add padding inside the input box */
+    width: 400px; /* Set the width of the input box */
+}
+
+.button{
+   background-color: tan;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   width:100px;
+}
+.button:hover{
+    background-color:#1d2410;
+    border-color:#D27D2D; 
+}
+
+.userProfileCardStyle{
+ font-size:15px;
+}
+
+.loginForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.createuserForm{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.PostCardContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .ImageContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
