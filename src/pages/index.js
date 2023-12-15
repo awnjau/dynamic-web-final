@@ -30,7 +30,7 @@ export default function UserProfile({ isLoggedIn }) {
         <>
             <main>
                 <h1 className={styles.userProfileTitle}>see events in your area!</h1>
-                <div className={styles.feedPostsContainter}>
+                <div className={styles.feedPostsStyle}>
                     {allPosts.map((post, i) => (
                     <PostCard post={post} key={i} />
                     ))}

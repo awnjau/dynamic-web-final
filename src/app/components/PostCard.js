@@ -12,7 +12,7 @@ const PostCard = ({ post, user}) => {
                  <img src={post.imageURL} alt="" />
             </div>
             <p className={styles.PostContent}>{post.postContent}</p>
-            <p className={styles.PostDate}>Posted on: {getPostDateString(post.postDate)}</p>
+            <p className={styles.PostDate}>event date: {getPostDateString(post.postDate)}</p>
         </div>
         </div>
 

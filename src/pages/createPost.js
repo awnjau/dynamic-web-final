@@ -69,7 +69,7 @@ export default function CreatePost({ isLoggedIn, userInformation }) {
     return(
         <>
             <main>
-                <h1>Create Post</h1>
+                <h1>create post</h1>
                 <CreatePostForm createPostFunction={createPostFunction} />
             </main>
         </>
