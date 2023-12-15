@@ -20,7 +20,7 @@ export default function Login({ isLoggedIn, loginUser }) {
                 </div>
                 <LoginForm loginUser={loginUser} /> 
                 <div className={styles.loginblurb}>
-                     <p>welcome to come find me! the premiere location for connecting with other black youth in your area. here, you can find and post events that help to connect you with others. please stay respectful, have fun, and don&apost forget to put the location of each event on the digital flyer or in the caption!</p>
+                     <p>welcome to come find me! the premiere location for connecting with other black youth in your area. here, you can find and post events that help to connect you with others. please stay respectful, have fun, and do not forget to put the location of each event on the digital flyer or in the caption!</p>
                  </div>
             </main>
         </>
